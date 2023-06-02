@@ -1,0 +1,46 @@
+h1{color:rgb(240, 141, 11);
+    font-size: 24px;
+    text-transform: uppercase;
+     font-style: italic;
+    font-family: 'William',serif;
+    margin-top: 0; 
+    padding-top: 34px;
+    margin-bottom: 0;
+    font-weight: normal;
+    color:white;
+}
+h2{color:blueviolet;
+   font-size: 30px; 
+   text-transform: uppercase ;
+font-family: 'Inter', sans-serif;
+margin-bottom: 24px;  
+margin-top: 0;
+color:white;
+}  
+h3{
+    font-family: 'William',serif;
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: normal;
+    color:white;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}   
+img{ width: 450px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+div{background-color:rgb(248, 214, 170);
+width: 600px;
+height: 600px;
+text-align: center;
+margin: auto;
+}
+body{
+    background-color: olive;
+}
