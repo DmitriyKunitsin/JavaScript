@@ -19,7 +19,11 @@ let button = document.querySelector('.button');
 let phrase = document.querySelector('.phrase');
 let advice = document.querySelector('.advice');
 let image = document.querySelector('.image');
-
+for (let i = 0; i <= phrases.length -1 ; i ++){
+    gerRandomElement(phrases); 
+     smoothly(phrase, 'textContent', phrases[i].text)
+     smoothly(image, 'src', phrases[i].image ) 
+ }
 
 button.addEventListener('click', function()
 {   let randomElement =  gerRandomElement(phrases);   
@@ -32,10 +36,3 @@ button.addEventListener('click', function()
         advice.style.fontSize = '42px';
     }   
 })
-for (let i = 0; i <= phrases.length -1 ; i ++){
-   //gerRandomElement(phrases);
-   gerRandomElement(phrases); 
-    smoothly(phrase, 'textContent', phrases[i].text)
-    smoothly(image, 'src', phrases[i].image ) 
-   //console.log(phrases[i].text);
-}
